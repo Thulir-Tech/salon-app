@@ -17,8 +17,8 @@ export default function Testimonials() {
         {testimonials.map((t, i) => (
           <Reveal key={i} delay={i * 0.1}>
             <div className="p-6 border border-purple-300/40 rounded-lg bg-transparent hover:shadow-lg transition">
-              <p className="italic text-gray-300 mb-4">"{t.text}"</p>
-              <span className="font-semibold text-pink-300">- {t.name}</span>
+              <p className="italic text-black mb-4">"{t.text}"</p>
+              <span className="font-semibold text-pink-700">- {t.name}</span>
             </div>
           </Reveal>
         ))}
