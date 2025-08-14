@@ -41,13 +41,13 @@ export const HeroHighlight = ({
   return (
     <div
       className={cn(
-        "group relative flex h-[40rem] w-full items-center justify-center bg-black md:h-[50vh] lg:h-[100vh] overflow-hidden",
+        "group relative flex h-[40rem] w-full items-center justify-center bg-black h-screen overflow-hidden",
         containerClassName,
       )}
       onMouseMove={handleMouseMove}
     >
       <div
-        className="pointer-events-none absolute inset-0 dark:hidden"
+        className="pointer-events-none absolute inset-0 dark:hidden opacity-25"
         style={{
           backgroundImage: dotPatterns.light.default,
         }}
