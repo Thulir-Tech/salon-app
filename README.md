@@ -1,4 +1,4 @@
-git init
+git init <br>
 git remote add origin https://github.com/Thulir-Tech/salon-app.git
 git checkout -b main
 git pull origin main
