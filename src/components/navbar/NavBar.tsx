@@ -53,6 +53,7 @@ export default function NavBar() {
                     <Button
                         variant="outline"
                         className="hover:bg-white hover:text-black dark:text-white text-black"
+                        onClick={() => { window.location.href = '/contact'; }}
                     >
                         Get Quote
                     </Button>
